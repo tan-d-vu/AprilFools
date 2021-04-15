@@ -1,119 +1,247 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>YOU JUST GOT TROLLED</title>
-    <style>
-      body {
-        height: 100vh;
-      }
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="google" content="notranslate" />
+    <meta http-equiv="Content-Language" content="en" />
+    <!-- Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+      defer
+    ></script>
 
-      img {
-        height: 50vh;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%); /* IE 9 */
-        -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */
-      }
-
-      .center {
-        padding-top: 40px;
-      }
-
-      .awesome {
-        font-family: futura;
-        font-style: italic;
-
-        width: 100%;
-
-        margin: 0 auto;
-        text-align: center;
-
-        color: #313131;
-        font-size: 45px;
-        font-weight: bold;
-        position: absolute;
-        -webkit-animation: colorchange 1s infinite alternate;
-      }
-
-      @-webkit-keyframes colorchange {
-        0% {
-          color: blue;
-        }
-
-        10% {
-          color: #8e44ad;
-        }
-
-        20% {
-          color: #1abc9c;
-        }
-
-        30% {
-          color: #d35400;
-        }
-
-        40% {
-          color: blue;
-        }
-
-        50% {
-          color: #34495e;
-        }
-
-        60% {
-          color: blue;
-        }
-
-        70% {
-          color: #2980b9;
-        }
-        80% {
-          color: #f1c40f;
-        }
-
-        90% {
-          color: #2980b9;
-        }
-
-        100% {
-          color: pink;
-        }
-      }
-    </style>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <!-- Custom -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <!-- Custom JS -->
+    <script src="/assets/js/main.js" defer></script>
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/logos/planar_favicon_light.png"
+    />
+    <title>Adventurelist</title>
   </head>
-  <body>
-    <div class="center">
-      <a class="awesome">YOU JUST GOT PRANKED</a>
-    </div>
-    <div class="center">
-      <a class="awesome">YOU JUST GOT PRANKED</a>
-    </div>
-    <div class="center">
-      <a class="awesome">YOU JUST GOT PRANKED</a>
-    </div>
-
-    <div style="height: 65vh">
-      <img src="TrollFace.jpg" alt="" />
-    </div>
-
-    <div class="center">
-      <button class="awesome" onclick="troll()">
-        Click to turn off the music
-      </button>
-
-      <script>
-        function troll() {
-          alert("BRUH LMFAO DID YOU REALLY CLICK THAT????????????");
-        }
-      </script>
-    </div>
-    <audio controls autoplay style="display: none">
-      <source src="epictrollsong.mp3" type="audio/mpeg" />
-    </audio>
-  </body>
 </html>
+
+<body>
+  <!-- Navbar -->
+  <nav
+    class="navbar navbar-expand-sm navbar-light border-bottom fixed-top py-3"
+  >
+    <div class="container">
+      <a href="/" class="navbar-brand">
+        <img
+          class="logo"
+          src="/assets/logos/AL_Planar_LongBanner.png"
+          alt="Adventurelist Logo"
+        />
+      </a>
+
+
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#about" class="me-auto nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#sign-up" class="me-auto nav-link">Sign Up</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main landing page -->
+  <section class="index index-background full-page">
+    <div class="container">
+      <div class="align-items-center d-flex flex-column justify-content-center">
+        <h1>Find Your Next Adventure with Adventurelist</h1>
+        <h2>Launching soon with adventures in your area!</h2>
+        <p>We are a community and marketplace for guided adventure sports. </p>
+        <p>We connect customers with verified, credentialed guides across high-adrenaline outdoor industries.</p>
+        </p>
+        <h2 class="mt-4">Subscribe now to save your spot and stay updated!</h2>
+      </div>
+
+      <div class="mt-5 row justify-content-center">
+        <br />
+        <a class="mt-4 btn btn-dark-blue btn-lg col-md-4" href="/adventurer" id="register"
+          >Adventurer</a
+        >
+        <a class="mt-4 btn btn-dark-blue btn-lg col-md-4 offset-md-1" href="/guide" id="register"
+          >Guide</a
+        >
+      </div>
+    </div>
+  </section>
+
+  <!-- Information -->
+  <section class="blue-orange-gradient" id="about">
+    <div class="about container">
+        <div class="align-items-center d-flex flex-column justify-content-center">
+            <h1>Who are we?</h1>
+            <p class = "mt-4">
+                Maybe talk about the team instead? Talk about the funding programs we are in?
+                Social proof or sth I don't remember.
+                Adventurelist is a community and marketplace for guided adventure
+                sports.
+            </p>
+            <p>
+                Our mission is to connect customers with verified, credentialed guides across
+                high-adrenaline outdoor industries. We strive to connect outdoor adventurers of all skill levels
+                and abilities with exciting, meaningful outdoor experiences.
+            </p>
+            <p>
+            Newcomer looking to learn? Experienced adventurer? Weekend
+            warrior?
+            </p>
+            <p>
+              Adventurelist is the place for you.
+            </p>
+        </div>
+    </div>
+  </section>
+
+  <!-- Sponsor -->
+  <section class="sponsor orange-blue-gradient pb-5">
+    <div class="container">
+        <h1>Our Sponsors</h1>
+        <div class="row justify-content-center align-items-center gx-2">
+            <section class="mt-4 col-md-3">
+                <img src="/assets/img/eclub_logo.png" alt="E-club Logo">  
+            </section>
+
+            <section class="mt-4 col-md-3 ">
+                <img src="/assets/img/Techstars_Logo_Primary_Black.png" alt="Techstars Logo">  
+            </section>
+
+            <section class="mt-4 col-md-3 ">
+              <img src="/assets/img/tigerlaunch_logo.png" alt="TigerLaunch Logo">  
+            </section>
+            
+            <section class="mt-4 col-md-3 ">
+              <img src="/assets/img/kc-logo2019_0.png" alt="KellerCenter Logo">  
+            </section>
+        </div>
+  
+    </div>
+  </section>
+
+  <!-- Values -->
+  <section class ="value blue-orange-gradient pt-5">
+    <div class="container">
+        <h1>Our Values</h1>
+        <div class="row justify-content-center gx-2">
+            <section class="mt-4 col-sm-3">
+              <h3>Accessibility</h3>
+              <img style="width: 200px; height: 200px" src="/assets/img/accessibility.PNG" alt="Accessibility">  
+              <p>
+                Adventurelist believes in democratizing access to America's
+                outdoors. No matter your background, skillset, or ability
+                level, Adventurelist wants to help you find meaningful
+                experiences in the great outdoors.
+              </p>
+            </section>
+            <section class="mt-4 col-md-3 offset-md-1">
+              <h3>Conservation</h3>
+              <img style="width: 200px; height: 200px" src="/assets/img/conservation.PNG" alt="Accessibility">  
+              <p>
+                We know that introducing more people to the wilderness comes
+                with the responsibility to steward our natural resources. All
+                Adventurelist adventurers and guides must pledge to leave no
+                trace and maintain the outdoors as pristine as we found it.
+              </p>
+            </section>
+            <section class="mt-4 col-md-3 offset-md-1">
+              <h3>Learning</h3>
+              <img style="width: 200px; height: 200px" src="/assets/img/learning.PNG" alt="Accessibility">  
+              <p>
+                We know that a skilled adventurer is a safe adventurer. With
+                that in mind, we strive to offer learning experiences to make
+                you safer and more confident in your outdoor pursuits.
+              </p>
+            </section>
+          </div>
+    </div>
+  </section>
+  
+  <section class="sports orange-blue-gradient">
+    <div class="container">
+        <h1>Our Adventures</h1>
+        <div class="row justify-content-center gx-2">
+            <section class="gallery-item mt-4 col-md-3 ">
+                <img class = "border border-light" src="/assets/img/billy-onjea-plWDssUkimQ-unsplash.jpg" alt="Rock Climbing">  
+                <h2>Rock Climbing</h2>
+                <p>We offer a wide range of mountain sports such as rock climbing, blah blah</p>
+            </section>
+  
+            <section class="gallery-item mt-4 col-md-3 ">
+                <img class = "border border-light" src="/assets/img/whitewater-rafting.jpeg" alt="Water Rafting">  
+                <h2>Water Rafting</h2>
+                <p>Water grafting and fishing is our passion, blah blah</p>
+            </section>
+  
+            <section class="gallery-item mt-4 col-md-3 ">
+              <img class = "border border-light" src="/assets/img/backcountry-skiiing.jpeg" alt="Skiing">  
+              <h2>Skiing</h2>
+              <p>Our skiing instructors are awesome, blah blah</p>
+            </section>
+        </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer mt-4">
+    <div class="container pt-4">
+      <div class="d-flex justify-content-between">
+        <div class="copyright">
+          <div>
+            © 2021 By
+            <a href="/" class="text-decoration-none text-muted">Adventurelist</a>
+          </div>
+        </div>
+        <div>
+          <a class="text-decoration-none" href="https://twitter.com/AdventurelistGo">
+            <icon class="fab fa-twitter fa-lg px-2"></icon>
+          </a>
+
+          <a class="text-decoration-none" href="https://www.facebook.com/adventurelist.go">
+            <icon class="fab fa-facebook fa-lg px-2"></icon>
+          </a>
+          
+          <a class="text-decoration-none" href="https://www.instagram.com/go_adventurelist/">
+            <icon class="fab fa-instagram fa-lg px-2"></icon>
+          </a>
+          
+          <a class="text-decoration-none" href="https://www.linkedin.com/company/71592829">
+            <icon class="fab fa-linkedin fa-lg px-2"> </icon>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>

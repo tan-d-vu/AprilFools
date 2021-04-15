@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    /*Fixes the height to 100% of the viewport*/
+}
+
+body {
+    padding-top: 83px;
+}
+
+.navbar {
+    background-color: white;
+    border: none;
+}
+
+.nav-item {
+    font-size: 1.15em;
+}
+
+.logo {
+    height: 40px;
+    width: calc(height * 7.56px);
+}
+
+.full-page {
+    height: 100%;
+}
+
+.blue-orange-gradient {
+    background-image: linear-gradient(#A7E3F8, #F5A284);
+}
+
+.orange-blue-gradient {
+    background-image: linear-gradient( #F5A284, #A7E3F8);
+}
+
+.about p {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.value p {
+    font-size: 1.25em;
+    font-weight: 450;
+}
+
+.index-background {
+    background-image: url(/assets/img/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 55%;
+    min-height: 100vh;
+}
+
+.index,
+.about {
+    text-align: center;
+    padding-top: 5em;
+}
+
+.about {
+    width: 55%;
+    min-height: 100vh;
+}
+
+.value,
+.sports {
+    text-align: center;
+    min-height: 100vh;
+}
+
+.sponsor {
+    text-align: center;
+}
+
+.index p {
+    font-size: 1.25em;
+}
+
+.index h1,
+.about h1,
+.value h1,
+.sports h1,
+.sponsor h1 {
+    font-size: 3em;
+}
+
+.btn-dark-blue {
+    background: #7474BF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #348AC7, #7474BF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #348AC7, #7474BF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+
+.btn-dark-blue:hover {
+    color: white;
+    text-shadow: 0 0 3px white;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* To allow 3 per row, and to fix centering issue */
+    /* Following lines don't do anything and mess up mobile version.
+    width: 120%;
+    transform: translate(-8.5%, 0%);
+    */
+    padding-bottom: 5%;
+}
+
+.gallery-item {
+    margin: 10px;
+}
+
+.gallery-item img {
+    width: 330px;
+    height: 265px;
+}
+
+.sponsor img {
+    width: 300px;
+}
+
+
+/* Footer */
+
+footer {
+    padding-bottom: 2%;
+    background-image: linear-gradient(#A7E3F8,white);
+
+}
+
+
+/* Footer social medias */
+
+footer a {
+    color: black;
+
+}
+
+footer a:hover {
+    color: #147ca6;
+    text-decoration: none;
+}
