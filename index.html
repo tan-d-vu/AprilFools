@@ -1,88 +1,26 @@
-<!DOCTYPE html>
-<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="google" content="notranslate" />
-    <meta http-equiv="Content-Language" content="en" />
-    <!-- Bootstrap-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-      crossorigin="anonymous"
-      defer
-    ></script>
+---
+layout: base
+title: Home
+---
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-      crossorigin="anonymous"
-    />
-    <!-- Custom -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <!-- Custom JS -->
-    <script src="./assets/js/main.js" defer></script>
-    <link
-      rel="icon"
-      type="image/png"
-      href="./assets/logos/planar_favicon_light.png"
-    />
-    <style>
+  <style>
       
-.index-background {
-  background-image: url(./assets/img/main-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 100% 55%;
-  min-height: 100vh;
-}
-    </style>
-    <title>Adventurelist</title>
-  </head>
-</html>
+    .index-background {
+      background-image: url(./assets/img/main-bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 100% 55%;
+      min-height: 100vh;
+    }
+  </style>
 
-<body>
-  <!-- Navbar -->
-  <nav
-    class="navbar navbar-expand-sm navbar-light border-bottom fixed-top py-3"
-  >
-    <div class="container">
-      <a href="/" class="navbar-brand">
-        <img
-          class="logo"
-          src="./assets/logos/AL_Planar_LongBanner.png"
-          alt="Adventurelist Logo"
-        />
-      </a>
-
-
-      <div id="navbarSupportedContent" class="collapse navbar-collapse">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a href="#about" class="me-auto nav-link">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a href="#sign-up" class="me-auto nav-link">Sign Up</a>
-          </li>
-
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.src = "https://paperform.co/__embed.min.js";
+      document.body.appendChild(script);
+    })();
+  </script>
 
   <!-- Main landing page -->
   <section class="index index-background full-page">
@@ -98,15 +36,27 @@
 
       <div class="mt-5 row justify-content-center">
         <br />
+        
+        <!--
         <a class="mt-4 btn btn-dark-blue btn-lg col-md-4" href="/adventurer" id="register"
-          >Adventurer</a
-        >
+          >Adventurer</a>
+
         <a class="mt-4 btn btn-dark-blue btn-lg col-md-4 offset-md-1" href="/guide" id="register"
-          >Guide</a
-        >
+          >Guide</a>
+        -->
+
+
+        <a class="mt-4 btn btn-dark-blue btn-lg col-md-4"  data-paperform-id="adventurelist" data-popup-button="1"
+        >Adventurer</a>
+
+        <a class="mt-4 btn btn-dark-blue btn-lg col-md-4 offset-md-1" data-paperform-id="t8ytqdkq" data-popup-button="1"
+          >Guide</a>
+
       </div>
     </div>
   </section>
+
+
 
   <!-- Information -->
   <section class="blue-orange-gradient" id="about">
@@ -222,36 +172,3 @@
         </div>
     </div>
   </section>
-
-  <!-- Footer -->
-  <footer id="footer mt-4">
-    <div class="container pt-4">
-      <div class="d-flex justify-content-between">
-        <div class="copyright">
-          <div>
-            © 2021 By
-            <a href="/" class="text-decoration-none text-muted">Adventurelist</a>
-          </div>
-        </div>
-        <div>
-          <a class="text-decoration-none" href="https://twitter.com/AdventurelistGo">
-            <icon class="fab fa-twitter fa-lg px-2"></icon>
-          </a>
-
-          <a class="text-decoration-none" href="https://www.facebook.com/adventurelist.go">
-            <icon class="fab fa-facebook fa-lg px-2"></icon>
-          </a>
-          
-          <a class="text-decoration-none" href="https://www.instagram.com/go_adventurelist/">
-            <icon class="fab fa-instagram fa-lg px-2"></icon>
-          </a>
-          
-          <a class="text-decoration-none" href="https://www.linkedin.com/company/71592829">
-            <icon class="fab fa-linkedin fa-lg px-2"> </icon>
-          </a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-</body>
