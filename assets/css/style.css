@@ -150,3 +150,36 @@ footer a:hover {
     color: #147ca6;
     text-decoration: none;
 }
+
+/* */
+#display-on-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .index,
+    .about {
+        text-align: center;
+    }
+    
+    .about {
+        width: 90%;
+        min-height: 100vh;
+    }
+
+    .about p
+    {
+        font-size: 1.25em;
+        font-weight: 450;
+    }
+
+
+    #display-on-mobile {
+        display: inline-block;
+    }
+
+    #hidden-on-mobile {
+        display: none;
+    }
+
+}
