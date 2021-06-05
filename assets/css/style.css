@@ -41,17 +41,11 @@ body {
 
 footer {
     padding-bottom: 2%;
-    background-image: linear-gradient(#A7E3F8, white);
-
 }
 
 
 /* Footer social medias */
 
-footer a {
-    color: black;
-
-}
 
 footer a:hover {
     color: #147ca6;
@@ -96,10 +90,17 @@ footer a:hover {
 /* 992px = bootstrap lg */
 @media (min-width: 992px) {
     .pt-lg-20 {
-        padding-top: 20vh;
+        padding-top: 20vh!important;
     }
 
     .sponsor-logo-lg {
         max-width: 20vw;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .fs-xxl-4 {
+        font-size: 1.5rem!important
     }
 }
