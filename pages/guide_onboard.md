@@ -12,5 +12,9 @@ permalink: /guide-verification/
             document.body.appendChild(script);
         })()
     </script>
-
 </section>
+<script>
+    window.onload = function () {
+        document.body.querySelector('#mainNav').classList.add('navbar-shrink');
+    }
+</script>
