@@ -14,7 +14,7 @@ permalink: /blog/
     {%- for post in site.posts -%}
     <div class="row py-2">
       <div class="col-xl-4 pt-2 pb-1 blog-list-thumbnail align-self-center d-flex justify-content-center">
-        <img src="{{ post.thumbnail }}" alt="">
+        <img src="{{site.baseurl}}/{{ post.thumbnail }}" alt="">
       </div>
       <div class="col blog-list-title">
         <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
