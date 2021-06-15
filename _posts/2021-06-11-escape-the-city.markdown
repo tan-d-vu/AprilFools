@@ -5,13 +5,14 @@ category: blog jun
 permalink: blog/jun/escape-the-city
 thumbnail: /assets/img/sports/brook-anderson-Dy5vYRy9GWk-unsplash.jpg
 description: This week, we bring to you adventures for all the city dwellers out there. Whether that’s close-to-home exploration around the NYC area, or a little bit further out in the Southwestern deserts, read on to learn about how to get outside and enjoy nature this summer!
+
 ---
-<div class="page-section">
+<div class="page-section" id="blog-post">
   <div class="container-fluid d-lg-flex justify-content-center">
     <div class="col-xl-6 col-lg-8">
       <div>
-        <div class="blog-title">
-          <h1> Escape the City with Us! </h1>
+        <div class="blog-title pb-2">
+          <h1 class="text-center"> Escape the City with Us! </h1>
         </div>
         <p>This week, we bring to you adventures for all the city dwellers out there. Whether that’s close-to-home
           exploration around the NYC area, or a little bit further out in the Southwestern deserts, read on to
@@ -28,7 +29,7 @@ description: This week, we bring to you adventures for all the city dwellers out
           Stay tuned for more details!
         </p>
       </div>
-
+  
       <div>
         <div class="blog-sub-heading">
           <h2> Escaping the City
@@ -50,7 +51,7 @@ description: This week, we bring to you adventures for all the city dwellers out
             must-dos adventures in the area</a>.
         </p>
       </div>
-
+  
       <div>
         <div class="blog-sub-heading">
           <h2> Outdoor Industry News:
@@ -88,12 +89,12 @@ description: This week, we bring to you adventures for all the city dwellers out
         </div>
         <div class="col">
           <div class="blog-sub-heading">
-
+  
             <h2 class="text-white"> What We’re Watching: </h2>
           </div>
-
+  
           <p class="text-white"> Monday by Eli Odegaard & Wes Coughlin </p>
-
+  
           <p class="text-white"> Between 5pm Friday night and 9am Monday morning there are 64 hours for the
             Weekend Warriors to embark on an epic adventure. Follow Mike Chambers and Jason Antin as they summit
             Mt. Hood – the tallest peak in Oregon, run a triathlon in Jackson,
@@ -101,7 +102,7 @@ description: This week, we bring to you adventures for all the city dwellers out
           </p>
         </div>
       </div>
-
+  
       <div>
         <div class="blog-sub-heading">
           <h2> Events:
@@ -141,11 +142,11 @@ description: This week, we bring to you adventures for all the city dwellers out
             the world.
           </p>
         </div>
-
+  
       </div>
-
-
+  
+  
     </div>
-
+  
   </div>
 </div>

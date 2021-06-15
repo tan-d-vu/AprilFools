@@ -7,7 +7,7 @@ permalink: /blog/
   <div class="container min-vh-80 vw-lg-60">
 
     <div class="text-center">
-      <h2 class="section-heading text-uppercase">Weekly Newsletter</h2>
+      <h2 class="section-heading text-uppercase">Blog</h2>
       <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
     </div>
     {%- if site.posts.size > 0 -%}
