@@ -19,7 +19,7 @@ permalink: /faq/
         <div class="accordion my-4" id="general-faq-accordion">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="general-headingSix">
-                    <button class="accordion-button collapsed bg-transparent text-dark shadow-none fw-bold" type="button"
+                    <button class="accordion-button collapsed bg-transparent text-dark shadow-none" type="button"
                         data-bs-toggle="collapse" data-bs-target="#general-collapseSix" aria-expanded="false"
                         aria-controls="general-collapseSix">
                         How do I sign up? </button>
@@ -32,25 +32,6 @@ permalink: /faq/
                 </div>
             </div>
 
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="general-headingOne">
-                    <button class="accordion-button collapsed bg-transparent text-dark shadow-none" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#general-collapseOne" aria-expanded="false"
-                        aria-controls="general-collapseOne">
-                        What are your COVID measures? </button>
-                </h2>
-                <div id="general-collapseOne" class="accordion-collapse collapse" aria-labelledby="general-headingOne">
-                    <div class="accordion-body">
-                        To provide a safe experience for all parties involved, we require all guides using our
-                        platform
-                        to have a COVID-19 safety plan and state the plan explicitly under each listing.
-                        <br>
-                        In addition, we expect adventurers to respect safety regulations and take personal measures
-                        to protect
-                        themselves.
-                    </div>
-                </div>
-            </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="general-headingTwo">
                     <button class="accordion-button collapsed bg-transparent text-dark shadow-none" type="button"
@@ -207,6 +188,30 @@ permalink: /faq/
                     </div>
                 </div>
             </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="traveler-headingTen">
+                    <button class="accordion-button collapsed bg-transparent text-dark shadow-none" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#traveler-collapseTen" aria-expanded="false"
+                        aria-controls="traveler-collapseTen">
+
+                        What are your COVID measures? </button>
+                </h2>
+                <div id="traveler-collapseTen" class="accordion-collapse collapse"
+                    aria-labelledby="traveler-headingTen">
+                    <div class="accordion-body">
+                        To provide a safe experience for all parties involved, we require all guides using our
+                        platform
+                        to have a COVID-19 safety plan and state the plan explicitly under each listing.
+                        <br>
+                        In addition, we expect adventurers to respect safety regulations and take personal measures
+                        to protect
+                        themselves.
+                    </div>
+                </div>
+            </div>
+
+
 
             <div class="accordion-item">
                 <h2 class="accordion-header" id="traveler-headingThree">

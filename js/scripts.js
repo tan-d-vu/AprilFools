@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', event => {
             navbarCollapsible.classList.add('navbar-shrink')
         }
     };
-    if (document.body.querySelector('#blog-list') || document.body.querySelector('#blog-post') || document.body.querySelector('#guide-onboard')) {} else {
+    if (document.body.querySelector('#landingPage')) {
         navbarShrink();
         document.addEventListener('scroll', navbarShrink);
     }
