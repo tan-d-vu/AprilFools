@@ -25,7 +25,7 @@ permalink: /blog/
         </a>
         <hr>
         <p>
-          {{ post.description | date: date_format }}
+          {{ post.description }}
         </p>
       </div>
       <hr>
