@@ -14,9 +14,24 @@ permalink: /faq/
 
         <!-- General -->
         <div class="text-center">
-            <h3 class="faq-section-heading">General</h3>
+            <h3 class="faq-section-heading">For Guides</h3>
         </div>
         <div class="accordion my-4" id="general-faq-accordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="general-headingSix">
+                    <button class="accordion-button collapsed bg-transparent text-dark shadow-none fw-bold" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#general-collapseSix" aria-expanded="false"
+                        aria-controls="general-collapseSix">
+                        How do I sign up? </button>
+                </h2>
+                <div id="general-collapseSix" class="accordion-collapse collapse" aria-labelledby="general-headingSix">
+                    <div class="accordion-body">
+                        Simply follow our 3-step instruction <a href="{{site.baseurl}}/guide-onboard/"
+                            target="blank">here</a>.
+                    </div>
+                </div>
+            </div>
+
             <div class="accordion-item">
                 <h2 class="accordion-header" id="general-headingOne">
                     <button class="accordion-button collapsed bg-transparent text-dark shadow-none" type="button"
@@ -54,7 +69,7 @@ permalink: /faq/
                     </div>
                 </div>
             </div>
-            
+
             <div class="accordion-item">
                 <h2 class="accordion-header" id="general-headingThree">
                     <button class="accordion-button collapsed bg-transparent text-dark shadow-none" type="button"
@@ -79,7 +94,7 @@ permalink: /faq/
                     </div>
                 </div>
             </div>
-            
+
             <div class="accordion-item">
                 <h2 class="accordion-header" id="general-headingFour">
                     <button class="accordion-button collapsed bg-transparent text-dark shadow-none" type="button"
@@ -278,13 +293,13 @@ permalink: /faq/
             <div class="accordion-item">
                 <h2 class="accordion-header" id="traveler-headingSeven">
                     <button class="accordion-button collapsed bg-transparent text-dark shadow-none" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#traveler-collapseSix" aria-expanded="false"
-                        aria-controls="traveler-collapseSix">
+                        data-bs-toggle="collapse" data-bs-target="#traveler-collapseSeven" aria-expanded="false"
+                        aria-controls="traveler-collapseSeven">
 
                         What forms of payment do you accept? </button>
                 </h2>
-                <div id="traveler-collapseSix" class="accordion-collapse collapse"
-                    aria-labelledby="traveler-headingSix">
+                <div id="traveler-collapseSeven" class="accordion-collapse collapse"
+                    aria-labelledby="traveler-headingSeven">
                     <div class="accordion-body">
                         Currently, we offer payment through all major credit card providers (Visa, Mastercard, American
                         Express, Discover,...).
@@ -297,13 +312,13 @@ permalink: /faq/
             <div class="accordion-item">
                 <h2 class="accordion-header" id="traveler-headingEight">
                     <button class="accordion-button collapsed bg-transparent text-dark shadow-none" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#traveler-collapseSix" aria-expanded="false"
-                        aria-controls="traveler-collapseSix">
+                        data-bs-toggle="collapse" data-bs-target="#traveler-collapseEight" aria-expanded="false"
+                        aria-controls="traveler-collapseEight">
 
                         What if I have to cancel my trip? </button>
                 </h2>
-                <div id="traveler-collapseSix" class="accordion-collapse collapse"
-                    aria-labelledby="traveler-headingSix">
+                <div id="traveler-collapseEight" class="accordion-collapse collapse"
+                    aria-labelledby="traveler-headingEight">
                     <div class="accordion-body">
                         Trips cancelled 48 hours or more in advance of departure date will be fully refunded.
                         <br>
