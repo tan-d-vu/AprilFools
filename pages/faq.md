@@ -117,7 +117,7 @@ permalink: /faq/
 
         <!-- Traveler FAQ -->
         <div class="text-center">
-            <h3 class="faq-section-heading">For Travelers</h3>
+            <h3 class="faq-section-heading">For Adventurers</h3>
         </div>
         <div class="accordion my-4" id="traveler-faq-accordion">
             <div class="accordion-item">

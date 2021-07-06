@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Join us as a guide
-permalink: /guide-onboard/
+permalink: /guide-onboard1/
 ---
 
 <section class="page-section bg-light" id="guide-onboard">

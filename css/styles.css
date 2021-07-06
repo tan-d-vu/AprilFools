@@ -12360,3 +12360,70 @@ header.masthead .masthead-heading {
     height: auto;
   }
 }
+
+#guide-onboard,
+#re-guide-onboard {
+  color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+#guide-onboard {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url(../assets/img/kalen-emsley-UqyHjOgYxYY-unsplash.jpg);
+}
+
+#re-guide-onboard{
+  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/img/colton-duke-QRU0i5AqEJA-unsplash.jpg);
+  background-position: center bottom;
+}
+
+
+#guide-onboard .subheading,
+#re-guide-onboard .subheading {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#guide-onboard .heading,
+#re-guide-onboard .heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#guide-onboard iframe {
+  border: 1px transparent;
+  border-radius: 15px;
+  width: 100%;
+}
+
+#value-props .value-prop-img-container {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  overflow: hidden;
+
+}
+
+#value-props .value-prop-img-container img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+#value-props .value-prop-item h4 {
+  font-family: "Lato";
+}
+
+
+#value-props .value-prop-item p {
+  font-weight: 350;
+}

@@ -3,7 +3,7 @@ layout: base
 title: Join us as a guide
 permalink: /guide-verification/
 ---
-<section class="page-section" id="guide-onboard">
+<section class="page-section" id="guide-verification">
     <div data-paperform-id="1zyaco6i" class="min-vh-80"></div>
     <script>
         (function () {
