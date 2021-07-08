@@ -27,7 +27,7 @@
         <meta property="og:image"
             content="https://goadventurelist.com/assets/logos/adventurelist-thumbnail-preview.png" />
         <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/1b4226cc3d.js" crossorigin="anonymous"></script>        
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet"
@@ -37,17 +37,6 @@
         <link href="{{site.baseurl}}/css/styles.css" rel="stylesheet" />
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="{{site.baseurl}}/assets/favicon.png" />
-        <!-- Mail Chimp -->
-        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-        <style type="text/css">
-            #mc_embed_signup {
-                background: #fff;
-                clear: left;
-                font: 14px Helvetica, Arial, sans-serif;
-                width: 100%;
-            }
-
-        </style>
 
     </head>
 
@@ -79,23 +68,26 @@
         {{content}}
 
         <!-- Begin Mailchimp Signup Form -->
-        <div id="mc_embed_signup">
-            <form
+  
+        <div class="bg-light p-5">
+            <form class="row d-flex justify-content-center g-3"
                 action="https://goadventurelist.us1.list-manage.com/subscribe/post?u=21523cbf2fb34dbfff5d361e6&amp;id=72a886e274"
-                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                target="_blank" novalidate>
-                <div id="mc_embed_signup_scroll">
-                    <label for="mce-EMAIL">Subscribe</label>
-                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address"
-                        required>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                            name="b_21523cbf2fb34dbfff5d361e6_72a886e274" tabindex="-1" value=""></div>
-                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe"
-                            id="mc-embedded-subscribe" class="button"></div>
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank"
+                novalidate>
+                <h4 class="text-center">Subscribe to Adventurelist</h4>
+                <p class="text-center m-0 p-0">Get our exclusive newsletters with exciting events </p>
+                <div class="col-auto">
+                    <label for="mce-EMAIL" class="visually-hidden"> Email: </label>
+                    <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL"
+                        placeholder="Email Address" required>
                 </div>
+                <div class="col-auto">
+                    <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                        class="btn btn-primary mb-3">Subscribe</button> </div>
             </form>
         </div>
+
+
 
         <!--End mc_embed_signup-->
 
