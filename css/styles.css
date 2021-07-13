@@ -5069,7 +5069,7 @@ fieldset:disabled .btn {
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: url("/assets/icons/dash.svg");
+  background-image: url("../assets/icons/dash.svg");
   transform: rotate(-180deg);
 }
 
@@ -5079,7 +5079,7 @@ fieldset:disabled .btn {
   height: 1.25rem;
   margin-left: auto;
   content: "";
-  background-image: url("/assets/icons/plus.svg");
+  background-image: url("../assets/icons/plus.svg");
   background-repeat: no-repeat;
   background-size: 1.25rem;
   transition: transform 0.2s ease-in-out;

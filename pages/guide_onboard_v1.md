@@ -11,8 +11,8 @@ permalink: /guide-onboard/
             <div class="col-lg-6 align-self-center">
                 <div class="container">
                     <div class="heading text-uppercase">Start your guiding journey with Adventurelist</div>
-                    <div class="subheading">Guide outdoor adventures including hiking, fishing, kayaking, survival
-                        courses and everything in between.</div>
+                    <div class="subheading">Guide outdoor adventures from hiking and fishing, to kayaking and survival
+                        courses, and everything in between.</div>
                 </div>
             </div>
             <div class="col-lg-6 col-xxl-4 align-self-center">
@@ -255,8 +255,8 @@ permalink: /guide-onboard/
         <div class="row justify-content-center" id="guide-header">
             <div class="col-lg-6 align-self-center">
                 <div class="heading text-uppercase">Start your guiding journey with Adventurelist</div>
-                <div class="subheading">Guide outdoor adventures including hiking, fishing, kayaking, survival
-                    courses and everything in between.</div>
+                <div class="subheading">Guide outdoor adventures from hiking and fishing, to kayaking and survival
+                    courses, and everything in between.</div>
                 <div class="text-center pt-5"><a class="btn btn-primary btn-lg" href="#" role="button">Join Us Now!</a>
                 </div>
             </div>
